@@ -2,6 +2,19 @@ const Router = require('express').Router;
 
 const routes = Router();
 
+const logId = (req) => {
+    if(req.body.id) {
+        console.log('UNIQUE ID: ' + req.body.id);
+    }
+}
+
+routes.get('/', (req, res)=>{
+    console.log('This is the home route ')
+    logId(req);
+    res.status(200).send('<h1>HOME ROUTE</h1>')
+});
+
+
 routes.get('/200', function(req, res) {
 
     console.log('everythings good');

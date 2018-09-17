@@ -22,7 +22,9 @@
     "babel-register": "^6.26.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "morgan": "^1.9.1"
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "simple-unique-id": "^0.0.1"
   },
   "devDependencies": {
     "eslint": "^4.12.1",

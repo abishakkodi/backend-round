@@ -2496,6 +2496,10 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment@>=2.5.0, moment@^2.22.2:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+
 morgan@^1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.9.1.tgz#0a8d16734a1d9afbc824b99df87e738e58e2da59"
@@ -3326,6 +3330,12 @@ shellwords@^0.1.1:
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
+
+simple-unique-id@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/simple-unique-id/-/simple-unique-id-0.0.1.tgz#8bb9cc6d668cb6b1c7abd266acd6ab953d79e0ea"
+  dependencies:
+    moment ">=2.5.0"
 
 slash@^1.0.0:
   version "1.0.0"
